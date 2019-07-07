@@ -1,0 +1,30 @@
+{
+  "name": "flexible-layout",
+  "version": "1.0.0",
+  "description": "A flexible solution.",
+  "main": "index.js",
+  "scripts": {
+    "build": "uglifyjs index.js -o index.min.js -c -m -e window,document:window,document"
+  },
+  "keywords": [
+    "flexible",
+    "rem",
+    "css"
+  ],
+  "author": "Jiavan",
+  "license": "MIT",
+  "devDependencies": {
+    "uglify-js": "^3.6.0"
+  },
+  "dependencies": {
+    "user": "^0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jiavan/flexible.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jiavan/flexible/issues"
+  },
+  "homepage": "https://github.com/Jiavan/flexible#readme"
+}
