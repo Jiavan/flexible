@@ -1,10 +1,10 @@
 {
   "name": "flexible-layout",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A flexible solution.",
   "main": "index.js",
   "scripts": {
-    "build": "uglifyjs ./src/index.js -o index.min.js -c -m -e window,document:window,document"
+    "build": "uglifyjs ./src/index.js -o index.js -c -m -e window,document:window,document"
   },
   "keywords": [
     "flexible",
